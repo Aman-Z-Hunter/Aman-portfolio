@@ -1,0 +1,103 @@
+/* Reset and Box Sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee); /* Gradient Sunset */
+  color: #212121; /* Deep Charcoal */
+}
+
+/* Header */
+header {
+  background: #5C6BC0; /* Vivid Indigo */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background: #283593; /* Rich Navy */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #00E5FF; /* Aqua Mint */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FF5252; /* Bright Coral */
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  padding: 30px;
+}
+
+h1, h2 {
+  color: #5C6BC0; /* Vivid Indigo */
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Video Card Styling */
+.video-card {
+  background: #FFFFFF; /* Pure White */
+  padding: 15px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(92, 107, 192, 0.2); /* Indigo glow */
+  overflow: hidden;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.video-card:hover {
+  border-color: #FF5252; /* Bright Coral */
+  transform: scale(1.03);
+}
+
+/* Embedded Video */
+iframe {
+  width: 100%;
+  height: 250px;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  background: #283593; /* Rich Navy */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+  .myButton {
+    display: inline-block;
+    background-color: #0A74DA;  /* Button color */
+    color: white;               /* Text color */
+    padding: 12px 24px;         /* Space inside */
+    text-decoration: none;      /* Remove underline */
+    border-radius: 8px;         /* Rounded corners */
+    font-size: 16px;            /* Text size */
+    transition: 0.3s;           /* Smooth effect */
+  }
+
+  .myButton:hover {
+    background-color: #005BB5;  /* Darker blue when mouse hovers */
+  }
